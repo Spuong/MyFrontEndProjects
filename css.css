@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    display: flex; /* Выравниваем элементы в ряд */
+    flex-wrap: wrap-reverse; /* Позволяем перенос элементов на новую строку при необходимости */
+    justify-content: center;
+}
+
+li {
+    margin: 5px; /* Отступы между элементами списка */
+    padding: 10px; /* Внутренние отступы для элементов списка */
+    border: 1px solid #ccc; /* Граница для элементов списка */
+    border-radius: 5px; /* Закругление углов */
+}
+
+button:hover{
+    background-color: red;
+    border-color: green;
+}
+button{
+    border-radius: 10px;
+    background-color: green;
+    color:yellow;
+    box-shadow: 12px 12px 2px 1px rgba(10, 10, 10, 0.2);
+}
+div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;;
+}
