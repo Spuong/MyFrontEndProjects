@@ -1,0 +1,22 @@
+button{
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    border-color: aquamarine;
+
+}
+button:hover{
+    background-color: brown;
+    border-color: brown;
+}
+h1{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+p{
+    color:blue;
+    font-size: xx-large;
+}
